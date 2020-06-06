@@ -96,17 +96,17 @@ void main(void)
 
     lcdInitinal();
 	
-    lcdMsg("浙江中医药大学",1,0);
-	lcdMsg("物联网课程",2,0);
+    lcdMsg("陈虹霞0605",1,0);
+	lcdMsg("嵌入式系统实设计与应用之物联网课程",2,0);
 	lcdMsg("XXX",3,0);
     lcdMsg("www.zcmu.edu.cn",4,0);
     delay_ms(2000);
     lcdInitinal();
     delay_ms(2000);
-    lcdMsg("余额：----",4,0);
-    lcdMsg("卡号：----",2,0);
-    lcdMsg("消费：----",3,0);
-    lcdMsg("状态：----",1,0);
+    lcdMsg("学号：----",4,0);
+    lcdMsg("性别：----",2,0);
+    lcdMsg("年龄：----",3,0);
+    lcdMsg("日期：----",1,0);
 
     init_all();
 
